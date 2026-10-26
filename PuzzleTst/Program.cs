@@ -80,4 +80,5 @@ for (int i = 1; i < bestPath.Count; i++)
 
 Console.WriteLine($"Used fragments: {bestPath.Count}/{fragments.Length}");
 Console.WriteLine($"Time taken: {(endTime - startTime).TotalMilliseconds} ms");
+Console.WriteLine($"Longest sequence length: {result.Length}");
 Console.WriteLine($"\nLongest sequence:\n{result}");
